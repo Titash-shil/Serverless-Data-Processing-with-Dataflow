@@ -10,11 +10,11 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/Titash-shil/Redacting-Confidential-Data-within-your-Pipelines-in-Cloud-Data-Fusion-GSP811/refs/heads/main/qwiklab_explorers.gsp811.sh
+curl -LO raw.githubusercontent.com/Titash-shil/Serverless-Data-Processing-with-Dataflow/refs/heads/main/qwiklab_explorers.sh
 
-sudo chmod +x qwiklab_explorers.gsp811.sh
+sudo chmod +x qwiklab_explorers.sh
 
-./qwiklab_explorers.gsp811.sh
+./qwiklab_explorers.sh
 ```
 ---
 - click here : [here](https://console.cloud.google.com/security/sensitive-data-protection/create/template;template=inspectTemplate?project=)
