@@ -17,7 +17,7 @@ sudo chmod +x qwiklab_explorers.sh
 ./qwiklab_explorers.sh
 ```
 ---
-- click here : [here](https://console.cloud.google.com/security/sensitive-data-protection/create/template;template=inspectTemplate?project=)
+- Go to `Dataflow Job` from : [here](https://console.cloud.google.com/dataflow/jobs?referrer=search&inv=1&invt=Abm41g&project=)
 ---
 
 
