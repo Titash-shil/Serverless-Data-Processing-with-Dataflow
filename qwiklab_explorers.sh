@@ -36,7 +36,7 @@ cd ~/training-data-analyst/quests/dataflow_python/1_Basic_ETL/lab
 
 rm my_pipeline.py
 
-wget https://raw.githubusercontent.com/Titash-shil/Serverless-Data-Processing-with-Dataflow/refs/heads/main/my_pipeline-qwiklab_explorers.py
+wget https://raw.githubusercontent.com/Titash-shil/Serverless-Data-Processing-with-Dataflow/refs/heads/main/my_pipeline.py
 
 
 cd training-data-analyst/quests/dataflow_python
