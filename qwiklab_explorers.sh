@@ -92,5 +92,5 @@ export PROJECT_ID=$(gcloud config get-value project)
 gcloud config set project $PROJECT_ID
 
 
-gcloud dataflow jobs run techcps-job --gcs-location gs://dataflow-templates-$REGION/latest/GCS_Text_to_BigQuery --region $REGION --staging-location gs://$PROJECT_ID/tmp --parameters inputFilePattern=gs://$PROJECT_ID/events.json,JSONPath=gs://$PROJECT_ID/schema.json,outputTable=$PROJECT_ID:logs.logs,bigQueryLoadingTemporaryDirectory=gs://$PROJECT_ID/tmp,javascriptTextTransformGcsPath=gs://$PROJECT_ID/transform.js,javascriptTextTransformFunctionName=transform
+gcloud dataflow jobs run QwikLab-Explorers-job --gcs-location gs://dataflow-templates-$REGION/latest/GCS_Text_to_BigQuery --region $REGION --staging-location gs://$PROJECT_ID/tmp --parameters inputFilePattern=gs://$PROJECT_ID/events.json,JSONPath=gs://$PROJECT_ID/schema.json,outputTable=$PROJECT_ID:logs.logs,bigQueryLoadingTemporaryDirectory=gs://$PROJECT_ID/tmp,javascriptTextTransformGcsPath=gs://$PROJECT_ID/transform.js,javascriptTextTransformFunctionName=transform
 
